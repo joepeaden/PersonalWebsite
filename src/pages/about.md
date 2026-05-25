@@ -1,0 +1,12 @@
+---
+layout: ../layouts/ProseLayout.astro
+title: About
+---
+### Hey, I'm Joe.
+I'm a software engineer with 8 years of professional experience building simulation and visualization tools in Unity. During that time, I've had experience developing application features and UI systems, working with optimization, developing editor tooling, and supporting peripheral applications. 
+ 
+I care a lot about code that's actually maintainable. Not just code that works, but systems that the next developer (or future me) can extend with maximum ease. Especially with the onset of AI development, I believe responsible code design and good architecture - and knowing where it matters - are the keys to a successful application. Participating in large-scale refactors have helped me develop a taste for good architecture - something inherently important to the games I build on my own time.
+ 
+I also make games independently. I've shipped one title to Steam (with positive reviews) with another underway, and host a few on itch.io. This constant work over years has given me direct experience with the full pipeline: design, development, handling user feedback, and marketing. It is also something of a personal commitment for me, and brings me great joy.
+
+On a more personal level, I also enjoy dancing, eating food (food is great!), and hanging out with friends, my dogs Matcha and Marble and my wonderful wife Pei-Chin. I enjoy a variety of tabletop games (Battletech, Warhammer, Root, and more) in addition to digital games (like Battle Brothers, Rimworld, Space Marine, and more). Reading is also something I do regularly, especially stoic philosophy.

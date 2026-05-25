@@ -1,0 +1,9 @@
+---
+const {title} = Astro.props;
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+<BaseLayout>
+    <div class="prose mx-auto">
+      <slot />
+    </div>
+</BaseLayout>

@@ -1,0 +1,25 @@
+---
+const { project } = Astro.props;
+const { title, description, thumbnail, tags } = project.data;
+const id = project.id 
+---
+
+<a href={`/projects/${id}`} class="flex border h-80">
+  <div class="aspect-square">
+    <img src={thumbnail} alt={title} class="w-full h-full object-cover" />
+  </div>
+  <div class="p-8 flex flex-col">
+    <p class="font-mono text-xl uppercase tracking-wider mb-1">Featured</p>
+    <p class="font-mono text-2xl uppercase tracking-wider mb-1">{title}</p>
+    <p class="font-mono text-md">{description}</p>
+    <div class="mt-auto">
+      <div class="flex gap-2 bottom-0">
+        {tags.map(tag => (
+          <span class="font-mono text-[9px] border px-2 py-0.5 uppercase">{tag}</span>
+        ))}
+      </div>
+    </div>
+  </div>
+</a>
+
+
