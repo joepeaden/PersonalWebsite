@@ -24,16 +24,12 @@ const path = Astro.url.pathname;
         <p>|</p>
         <a href="/projects" class={path == '/projects' ? 'font-bold' : ''}>Projects</a>
         <p>|</p>
-        <!-- <a href="/blog" class={path == '/blog' ? 'font-bold' : ''}>Blog</a> -->
-        <!-- <p>|</p> -->
-        <a href="/experience" class={path == '/experience' ? 'font-bold' : ''}>Experience</a>
+        <a href="/workplaces" class={path == '/workplaces' ? 'font-bold' : ''}>Workplaces</a>
         <p>|</p>
-        <!-- <a href="/contact" class={path == '/contact' ? 'font-bold' : ''}>Contact</a>
-        <p>|</p> -->
         <a href="/about" class={path == '/about' ? 'font-bold' : ''}>About Me</a>
       </nav>
 
-      <main>
+      <main class="pb-64">
         <slot />
       </main>
 

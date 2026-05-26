@@ -4,9 +4,9 @@ const { title, description, thumbnail, tags } = project.data;
 const id = project.id 
 ---
 
-<a href={`/projects/${id}`} class="flex border h-48">
-  <div class="aspect-square">
-    <img src={thumbnail} alt={title} class="w-full h-full object-cover" />
+<a href={`/projects/${id}`} class="flex bg-slate-100 h-48 transition-transform duration-200 hover:scale-105">
+  <div class="aspect-square flex justify-center items-center">
+    <img src={thumbnail} alt={title} class="w-8/10 h-8/10 object-cover" />
   </div>
   <div class="p-6 flex flex-col">
     <p class="font-mono text-lg uppercase tracking-wider mb-1">{title}</p>
