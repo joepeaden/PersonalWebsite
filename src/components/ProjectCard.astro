@@ -1,6 +1,6 @@
 ---
 const { project } = Astro.props;
-const { title, description, thumbnail, tags } = project.data;
+const { title, description, thumbnail, tags, date } = project.data;
 const id = project.id 
 ---
 
@@ -10,6 +10,7 @@ const id = project.id
   </div>
   <div class="p-6 flex flex-col">
     <p class="font-mono text-lg uppercase tracking-wider mb-1">{title}</p>
+    <p class="font-mono text-md"><b>{date}</b>{</p>
     <p class="font-mono text-sm">{description}</p>
     <div class="mt-auto">
       <div class="flex gap-2 bottom-0">
